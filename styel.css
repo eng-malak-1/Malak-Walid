@@ -57,7 +57,7 @@ li a:hover {
   cursor: pointer;
 }
 
-.fa-xmark{
+.fa-xmark {
   display: none;
 }
 
@@ -255,31 +255,40 @@ i {
 }
 
 /*                               contact section                      */
+#contact .icons {
+  margin-left: 34rem;
+  padding-bottom: 1rem;
+}
+
+#contact i {
+  margin-left: 2rem;
+  width: 4rem;
+  height: 4rem;
+  padding-top: 1rem;
+  padding-left: 1.6rem;
+  border-radius: 4px;
+}
+
+#contact i:hover {
+  color: white;
+}
+
+#contact .fa-facebook-f {
+  background-color: blue;
+}
+#contact .fa-whatsapp {
+  background-color: green;
+  padding-right: 3rem;
+}
+#contact .fa-instagram {
+  background-color: purple;
+  padding-right: 3rem;
+}
 
 .footer {
-  background-color: #436a6a;
-  width: 100vh;
-  width: 100%;
-  padding: 3rem;
-  font-size: 1.2rem;
-}
-
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-}
-
-.Copyright {
-  margin-top: 2rem;
-}
-
-.contactInfo {
-  margin-top: 1rem;
-  display: flex;
-}
-
-.phone {
-  margin-right: 3rem;
+  height: 7vh;
+  padding-left: 36rem;
+  padding-top: 1rem;
 }
 
 /*                        responsive                    */
@@ -375,6 +384,7 @@ i {
 
   .title {
     justify-content: center;
+    margin-left: 2.2rem;
   }
 
   .projects .content {
@@ -400,19 +410,19 @@ i {
 
   .fa-bars {
     display: block;
-    color: rgb(222, 218, 218) ;
+    color: rgb(222, 218, 218);
   }
-  .fa-xmark{
+  .fa-xmark {
     display: none;
-    color: rgb(222, 218, 218) ;
+    color: rgb(222, 218, 218);
     cursor: pointer;
     margin-top: -6rem;
   }
 
-  .fa-bars:hover{
+  .fa-bars:hover {
     color: black;
   }
-  .fa-xmark:hover{
+  .fa-xmark:hover {
     color: black;
   }
 
@@ -422,7 +432,7 @@ i {
 
   header {
     background-color: transparent;
-    position:absolute;
+    position: absolute;
   }
 
   .logo {
@@ -436,15 +446,13 @@ i {
     background-color: #5f7373;
     padding: 3rem;
     display: none;
-    margin-left: -8rem;
+    margin-left: -10rem;
     margin-top: 4rem;
     justify-content: center;
-
   }
 
-  li{
-        margin-top: 1rem;
-
+  li {
+    margin-top: 1rem;
   }
 
   li a {
@@ -453,14 +461,21 @@ i {
     margin-right: 2rem;
   }
 
-  li a:hover{
+  li a:hover {
     color: #243f29;
   }
 
-
-  .footer{
-    width: 100%;
+  #contact .icons {
+    margin-left: 3.4rem;
+    padding-bottom: 1rem;
   }
 
-  
+  #contact i {
+    margin-left: 1rem;
+  }
+  .footer {
+    height: 7vh;
+    padding-left: 5rem;
+    padding-top: 1rem;
+  }
 }
